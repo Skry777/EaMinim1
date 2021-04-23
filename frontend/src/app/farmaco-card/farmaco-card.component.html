@@ -1,0 +1,28 @@
+<div class="farmaco-card" *ngIf="farmaco">
+
+    <div class="farmaco-name">
+        Unidad Farmacologica {{index+1}}: {{farmaco.name}}
+    </div>
+
+    <div class="farmaco-descripcion">
+        
+        Descripcion: {{farmaco.descripcion}}
+    </div>
+
+    <div class="farmaco-responsable">
+        
+        Responsable: {{farmaco.responsable}}
+    </div>
+
+    <div class="farmaco-telefono">
+        
+        Telefono: {{farmaco.telefono}}
+    </div>
+
+    <button (click)="deleteFarmaco()" class="button">Borrar farmaco</button>
+
+    
+   
+</div>
+<hr>
+<br>

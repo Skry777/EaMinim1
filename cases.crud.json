@@ -1,0 +1,30 @@
+{
+"name": "Maite Fernandez",
+"descripcion": "18/11/2020",
+"dni": 	"48782119Q",
+"telefono": "+34 663493001",
+"fever": "yes",
+"cough": "no",
+"breathing_difficulty": "yes",
+"general_discomfort": "yes"
+}
+{
+"name": "Luis Mendez",
+"descripcion": "19/09/2020",
+"dni": 	"29382119L",
+"telefono": "+34 639465001",
+"fever": "no",
+"cough": "no",
+"breathing_difficulty": "yes",
+"general_discomfort": "yes"
+}
+{
+"name": "Carla Garcia",
+"descripcion": "03/08/2020",
+"dni": 	"293324519F",
+"telefono": "+34 634565001",
+"fever": "no",
+"cough": "yes",
+"breathing_difficulty": "yes",
+"general_discomfort": "no"
+}

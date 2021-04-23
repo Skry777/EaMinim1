@@ -1,0 +1,34 @@
+<div class="login">
+    <h2 class="login-header">Añadir unidad FarmacoVigilancia</h2>
+    <form [formGroup]="farmacoForm" class="login-container" (ngSubmit)="submitFarmaco()">
+      <input type="name" placeholder="Name*" formControlName="name" />
+      <ng-container
+        *ngIf="!formControls.name.valid &&formControls.name.touched"
+      >
+        <p *ngIf="formControls.name.errors.required">
+          Name is required
+        </p>
+      </ng-container>
+  
+      <input type="descripcion" placeholder="Descripcion*" formControlName="descripcion" />
+     
+    
+  
+      <input type="responsable" placeholder="Responsable*" formControlName="responsable" />
+      <ng-container
+        *ngIf="!formControls.responsable.valid &&formControls.responsable.touched"
+      >
+        <p *ngIf="formControls.responsable.errors.required">
+          Responsable is required
+        </p>
+      </ng-container>
+  
+      <input type="telefono" placeholder="Telefono*" formControlName="telefono" />
+      
+     
+
+      <p>
+        <input type="submit" value="Submit" [disabled]="farmacoForm.invalid" />
+      </p>
+    </form>
+  </div>
